@@ -1,0 +1,35 @@
+{ 
+    "menu": [
+    {
+        "name": "Soli",
+        "age": 20, 
+        "isAlive": true,
+        "menu": ["soli", "jinx", "nani"],
+        "address": {
+            "street": "123 street",
+            "city": "NYC"
+        }
+    },
+    {
+        "name": "Soli",
+        "age": 20, 
+        "isAlive": true,
+        "friends": ["soli", "jinx", "nani"],
+        "address": {
+            "street": "123 street",
+            "city": "NYC"
+        }
+    },
+    {
+        "name": "Soli",
+        "age": 20, 
+        "isAlive": true,
+        "friends": ["soli", "jinx", "nani"],
+        "address": {
+            "street": "123 street",
+            "city": "NYC"
+        }
+    }
+]
+
+}

@@ -1,0 +1,33 @@
+{ 
+    "menu": [
+    {
+        "appetizers": ["mozzerella sticks", "chicken sliders", "calamari"],
+        "cold sandwiches": ["Ham&Cheese Sandwich", "Tuna Sandwich", "Turkey & Provolone"], 
+        "hot sandwiches": ["Cuban Sandwich", "Philly Cheese Steak", "Panini"],
+        "desserts": ["Apple Pie", "Chocolate Mousse Cake", "Tiramisu"],
+        "drinks": ["Lemonaide", "Orange Juice", "Apple Juice"]
+        }
+    },
+    {
+        "name": "Soli",
+        "age": 20,
+        "isAlive": true,
+        "friends": ["soli", "jinx", "nani"],
+        "address": {
+            "street": "123 street",
+            "city": "NYC"
+        }
+    },
+    {
+        "name": "Soli",
+        "age": 20, 
+        "isAlive": true,
+        "friends": ["soli", "jinx", "nani"],
+        "address": {
+            "street": "123 street",
+            "city": "NYC"
+        }
+    }
+]
+
+}
