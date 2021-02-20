@@ -1,35 +1,58 @@
-{ 
-    "menu": [
-    {
-        "name": "Soli",
-        "age": 20, 
-        "isAlive": true,
-        "menu": ["soli", "jinx", "nani"],
-        "address": {
-            "street": "123 street",
-            "city": "NYC"
-        }
-    },
-    {
-        "name": "Soli",
-        "age": 20, 
-        "isAlive": true,
-        "friends": ["soli", "jinx", "nani"],
-        "address": {
-            "street": "123 street",
-            "city": "NYC"
-        }
-    },
-    {
-        "name": "Soli",
-        "age": 20, 
-        "isAlive": true,
-        "friends": ["soli", "jinx", "nani"],
-        "address": {
-            "street": "123 street",
-            "city": "NYC"
-        }
-    }
-]
-
-}
+    { 
+        "menu": 
+        [{
+            "appetizers":
+                [{ 
+                    "name": "Mozzerella Sticks",
+                    "description": "comes with marinara dipping sauce", 
+                    "ingredients": ["cheese", "breadcrumbs"]
+                },
+                {
+                    "name": "Taquitos",
+                    "description": "comes with pico de gallo", 
+                    "ingredients": ["tortilla", "shredded chicken"]
+                }],
+            
+            "coldSandwiches": 
+                [{
+                    "name": "Ham & Cheese",
+                    "description": "Boars Head Ham & American Cheese on Sliced Bread",
+                    "ingredients": ["ham", "cheese", "lettuce", "tomato", "onions"]
+                },
+                {
+                    "name": "Turkey & Provolone",
+                    "description": "Honey Turkey & Provolone Cheese on Sliced Bread",
+                    "ingredients": ["Turkey", "Provolone", "lettuce", "tomato", "onions"]
+                }],
+            "hotSandwiches": 
+                [{
+                    "name": "Grilled Chicken",
+                    "description": "Grilled Chicken & Cheese on Italian Bread",
+                    "ingredients": ["Grilled Chicken", "Shredded Cheese", "Chipotle Sauce"]
+                },
+                {
+                    "name": "Fillet-of-Fish",
+                    "description": "Fish & Tarter Sauce",
+                    "ingredients": ["Fish Pattie", "Tarter Sauce", "Sesame Bun"]
+                }]
+        }],
+            "desserts": 
+                [{
+                    "name": "Mousse Cake",
+                    "description": "Chocolate Cake with Mousse Cream",
+                    "ingredients": ["Chocolate", "Peanuts", "Raspberry Drizzle"]
+                },
+                {
+                    "name": "Ice Cream",
+                    "description": "Your Choice of 3 Flavors",
+                    "ingredients": ["Chocolate", "Vanilla", "Strawberry"]
+                }],
+            "drinks":
+                [{
+                    "name": "apple juice",
+                    "description": "juice from concentrate",
+                    "ingredients": ["apples", "preservatives"]
+                }]
+         }
+    
+    
