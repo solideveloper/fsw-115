@@ -3,12 +3,12 @@
         [{
             "appetizers":
                 [{ 
-                    "name": "Mozzerella Sticks",
+                    "name": "Mozzarella Sticks",
                     "description": "comes with marinara dipping sauce", 
                     "ingredients": ["cheese", "breadcrumbs"]
                 },
                 {
-                    "name": "Taquitos",
+                    "name": "Tacos",
                     "description": "comes with pico de gallo", 
                     "ingredients": ["tortilla", "shredded chicken"]
                 }],
@@ -34,8 +34,8 @@
                     "name": "Fillet-of-Fish",
                     "description": "Fish & Tarter Sauce",
                     "ingredients": ["Fish Pattie", "Tarter Sauce", "Sesame Bun"]
-                }]
-        }],
+                }],
+       
             "desserts": 
                 [{
                     "name": "Mousse Cake",
@@ -53,6 +53,8 @@
                     "description": "juice from concentrate",
                     "ingredients": ["apples", "preservatives"]
                 }]
-         }
+        }]
+
+    }
     
     
