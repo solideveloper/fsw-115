@@ -1,0 +1,17 @@
+* {
+     color: darkgoldenrod;
+}
+ol{
+     border: 7px solid black;
+     padding-bottom: 20px;
+     text-align: center;
+     list-style: none;
+}
+
+h1 {
+   color: crimson; 
+   text-decoration: underline black; 
+}
+
+
+
