@@ -1,0 +1,51 @@
+* {         
+    color: white;
+    background: black;
+}
+nav {
+    justify-content: right;
+}
+nav > a {
+    color: #cb6363;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: right;
+}
+
+ 
+
+  header{
+    font-size: 85px;
+    height: 300px;
+    text-align: center;
+    color: blanchedalmond;
+    
+}
+h2 {
+    grid-column: 2/3;
+    color: blanchedalmond;
+    font-size: 45px;
+    text-align: left;
+    margin: 1%;
+    padding: 1%
+}
+h2 >img {
+
+    height: 600px;
+    width: 300px;
+    float: right;
+    margin: 1%;
+    padding: 1%
+}
+ 
+ 
+ button {
+    font-size: 25px;
+    background-color: white;
+    color: crimson;
+    border-radius:50%;
+ }
+ 

@@ -28,6 +28,8 @@ const characters = JSON.parse(`
           "edited": "2014-12-20T21:17:56.891000Z",
           "url": "http://swapi.dev/api/people/1/"
      }`)
+
+
   
  
  
