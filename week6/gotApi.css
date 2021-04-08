@@ -7,17 +7,15 @@
      display:grid;
      grid-template-columns: auto auto auto auto;
      grid-column: span 2;
-     grid-gap: 15px;
      align-items: center;
      justify-content: center;
      border: 5px solid black;
      border-radius: 10px;
-     padding-top: 20px;
-     padding-bottom: 20px;
+     padding-top: 5px;
+     padding-bottom: 5px;
      background-color: rgb(71, 103, 96);
      width: 75%;
      margin: 0 auto;
-
 }
 li, ul, ol {
      grid-column: span 3;

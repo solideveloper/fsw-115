@@ -79,7 +79,7 @@ const button = document.getElementById("button");
 button.addEventListener("click", function() {
     axios.get("https://anapioficeandfire.com/api/characters")
     .then(response => {
-        console.log(response)
+       
         for (let i = 0; i < response.data.length; i++) {
         const names = document.createElement("p");
         names.textContent = "alias: " + response.data[i].aliases;
@@ -94,7 +94,7 @@ const button2 = document.getElementById("button2");
 button2.addEventListener("click", function() {
     axios.get("https://anapioficeandfire.com/api/books")
     .then(response => {
-        console.log(response)
+        
         for (let i = 0; i < response.data.length; i++) {
         const names = document.createElement("p");
         names.textContent = "Book Title: " + response.data[i].name + "Book Author: " + response.data[i].authors;
@@ -108,7 +108,7 @@ const button3 = document.getElementById("button3");
 button3.addEventListener("click", function() {
     axios.get("https://anapioficeandfire.com/api/houses")
     .then(response => {
-        console.log(response)
+        
         for (let i = 0; i < response.data.length; i++) {
         const names = document.createElement("p");
         names.textContent = "House Name: " + response.data[i].name + "Region: " + " " + response.data[i].region
